@@ -38,8 +38,8 @@ Within the same file, we fix random seeds where sampling occurs, emit a lightwei
 ## 2) Updated timeline (with status at end of Week 11)
 
 - **Week 6** — finalize extraction/enrichment; lifecycle mapping; ethics/licensing *Completed.*  
-- **Week 7** — begin integration; aggregate FARA; align FIPS; document storage choices  *Completed (pilot scale).*  
-- **Week 8** — complete integration; sanity checks; coverage by state; stabilize folders  *Completed (pilot); national pending cleaning rule freeze.*  
+- **Week 7** — begin integration; aggregate FARA; align FIPS; document storage choices *Completed (pilot scale).*  
+- **Week 8** — complete integration; sanity checks; coverage by state; stabilize folders *Completed (pilot); national pending cleaning rule freeze.*  
 - **Week 9** — data quality assessment; profiles; summarize issues  *First pass complete; living document continues in W12.*  
 - **Week 10** — data cleaning; scripted fixes; rerun diagnostics  *Syntactic pass done; semantic checks ~50%.*  
 - **Week 11** — automate end-to-end; parameterized Run-All/Snakemake; deterministic outputs and logs  *Initial pipeline in place; logs & parameters to be extended in W12–13.*  
@@ -53,7 +53,7 @@ Within the same file, we fix random seeds where sampling occurs, emit a lightwei
 ## 3) Changes to the project plan (and rationale)
 
 1) **Dataset sample (tiny, representative subset).**  
-We now enforce a pilot sequence (IL + 2 contrast states) before nationwide execution. This stabilizes cleaning/integration rules, exposes rural coverage edge cases early, and controls runtime.
+We enforce a pilot sequence (IL + 2 contrast states) before nationwide execution. This stabilizes cleaning/integration rules, exposes rural coverage edge cases early, and controls runtime.
 
 2) **Data-access script (minimal, reproducible).**  
 Offer a lightweight script that retrieves one example file per source, records basic provenance (source, access date, release), and demonstrates the intended acquisition flow end-to-end.
@@ -69,4 +69,4 @@ Produce a single, simple graphic—e.g., food-access indicator vs. adult obesity
 I focused on engineering and workflow from Week 6 through Week 11. In Week 6 I set up small data access runs and recorded source and release information while choosing FIPS as the primary key with clear type handling. In Week 7 I finalized extraction details and storage conventions and aligned the workflow with the data lifecycle. In Week 8 I aggregated FARA to the county level using population weights and aligned the result with PLACES using county FIPS. In Week 9 I produced light profiles and checks and summarized findings across accuracy completeness consistency and timeliness. In Week 10 I completed syntactic cleaning including NA normalization type unification and zero padded FIPS and drafted the initial semantic checks. In Week 11 I consolidated all steps into a single executable workflow fixed random seeds and wrote short run notes to prepare for parameterization and provenance.
 
 **Zeyi Hua — Analysis & Documentation**  
-I led analysis and documentation across Week 6 to Week 11. In Week 6 I completed dataset descriptions and linked them to the data lifecycle with citation and licensing notes. In Week 7 I documented storage layout and variable naming and confirmed the handling of FIPS and units. In Week 8 I reviewed the aggregated and joined fields for coherence and wrote the first rule for year and vintage alignment. In Week 9 I authored the data quality summary and highlighted rural missingness and potential vintage drift. In Week 10 I proposed minimal fixes recorded a document before repair guideline and checked how cleaning choices affect analysis. In Week 11 I wrote the task updates narrative prepared pilot descriptives and produced a simple visualization to show progress from plan to implementation.
+I led the analysis and documentation process from Week 6 through Week 11. In Week 6, I completed dataset descriptions and connected them to the data lifecycle, including citation and licensing notes. In Week 7, I documented the storage layout and variable naming conventions, and verified the treatment of FIPS codes and measurement units. In Week 8, I reviewed the aggregated and joined fields for consistency and drafted the first rule for year and vintage alignment. In Week 9, I authored the data quality summary, identifying rural data gaps and potential vintage drift. In Week 10, I proposed minimal fixes, recorded a pre-repair guideline document, and examined how cleaning choices influence analysis outcomes. In Week 11, I prepared task update narratives, developed pilot descriptive statistics, and created a simple visualization to illustrate progress from planning to implementation.
