@@ -37,12 +37,12 @@ Within the same file, we fix random seeds where sampling occurs, emit a lightwei
 
 ## 2) Updated timeline (with status at end of Week 11)
 
-- **Week 6** — finalize extraction/enrichment; lifecycle mapping; ethics/licensing ✅ *Completed.*  
-- **Week 7** — begin integration; aggregate FARA; align FIPS; document storage choices ✅ *Completed (pilot scale).*  
-- **Week 8** — complete integration; sanity checks; coverage by state; stabilize folders ✅ *Completed (pilot); national pending cleaning rule freeze.*  
-- **Week 9** — data quality assessment; profiles; summarize issues ✅ *First pass complete; living document continues in W12.*  
-- **Week 10** — data cleaning; scripted fixes; rerun diagnostics ✅ *Syntactic pass done; semantic checks ~50%.*  
-- **Week 11** — automate end-to-end; parameterized Run-All/Snakemake; deterministic outputs and logs ✅ *Initial pipeline in place; logs & parameters to be extended in W12–13.*  
+- **Week 6** — finalize extraction/enrichment; lifecycle mapping; ethics/licensing *Completed.*  
+- **Week 7** — begin integration; aggregate FARA; align FIPS; document storage choices  *Completed (pilot scale).*  
+- **Week 8** — complete integration; sanity checks; coverage by state; stabilize folders  *Completed (pilot); national pending cleaning rule freeze.*  
+- **Week 9** — data quality assessment; profiles; summarize issues  *First pass complete; living document continues in W12.*  
+- **Week 10** — data cleaning; scripted fixes; rerun diagnostics  *Syntactic pass done; semantic checks ~50%.*  
+- **Week 11** — automate end-to-end; parameterized Run-All/Snakemake; deterministic outputs and logs  *Initial pipeline in place; logs & parameters to be extended in W12–13.*  
 - **Week 12** — **provenance**: URLs, access dates, releases, SHA-256; transformation lineage; regenerability  *Planned.*  
 - **Week 13** — **reproducibility & transparency**: environment & run docs; expected outputs; assumptions/limitations  *Planned.*  
 - **Week 14** — **fresh-clone rehearsal**; fix paths/deps/order; one-command rebuild  *Planned.*  
